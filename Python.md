@@ -9,10 +9,10 @@ pip freeze > requirements.txt
 
 # Install packages 
 pip install -r requirements.txt
-pip install <dependencies>
+pip install *dependencies*
 
 # Set Environment varable
-export <EnvVariable>=<EnvValue>
+export EnvVariable=EnvValue
 
 # Runs Python script in the virtual environment
 python main.py
