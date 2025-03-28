@@ -7,7 +7,6 @@ source .venv/bin/activate
 # lists all the dependencies and save
 pip freeze > requirements.txt
 
-
 # Install packages 
 pip install -r requirements.txt
 pip install <dependencies>
@@ -17,8 +16,6 @@ export <EnvVariable>=<EnvValue>
 
 # Runs Python script in the virtual environment
 python main.py
-
-python -m venv .venv && source .venv/bin/activate && python main.py
 
 # Deactivate the Virtual Environment
 deactivate
